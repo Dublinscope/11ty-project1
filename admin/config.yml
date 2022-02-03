@@ -7,9 +7,9 @@ backend:
 
   collections:
     - name: "posts"
-    label: "Posts"
-    folder: "posts"
-    slug: "{{year}}-{{month}}-{{slug}}"
+      label: "Posts"
+      folder: "posts"
+      slug: "{{year}}-{{month}}-{{slug}}"
     fields:
     - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk" }
     - { label: "Title", name: "title", widget: "string" }
